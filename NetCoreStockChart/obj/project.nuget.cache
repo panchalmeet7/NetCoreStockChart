@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "SyLxgWHo64g0wNoCAl3s2BTFVX2FX4C123wW8pll2MJW/Gees07wfu5dNgKec9/i7UW7IUUH9iDQdaQTimb79A==",
+  "success": true,
+  "projectFilePath": "D:\\.net\\NetCoreStockChart\\NetCoreStockChart\\NetCoreStockChart.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pct38\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
+    "C:\\Users\\pct38\\.nuget\\packages\\flurl\\3.0.7\\flurl.3.0.7.nupkg.sha512",
+    "C:\\Users\\pct38\\.nuget\\packages\\flurl.http\\3.2.4\\flurl.http.3.2.4.nupkg.sha512",
+    "C:\\Users\\pct38\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "C:\\Users\\pct38\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\pct38\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\pct38\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
+    "C:\\Users\\pct38\\.nuget\\packages\\yahoofinanceapi\\2.2.0\\yahoofinanceapi.2.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
