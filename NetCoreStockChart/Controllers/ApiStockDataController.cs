@@ -11,7 +11,7 @@ namespace NetCoreStockChart.Controllers
         [HttpGet]
 
         //https://localhost:7006/api/apistockdata/ibm/2023-06-01/2023-07-01/daily
-        public async Task<List<StockPriceModel>> GetStockData(string ticker, string start,string end, string period)
+        public async Task<List<StockPriceModel>> GetStockData(string ticker, string start, string end, string period)
         {
             var p = Period.Daily;
             if (period.ToLower() == "weekly") p = Period.Weekly;

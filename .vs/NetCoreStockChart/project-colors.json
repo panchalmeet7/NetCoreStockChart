@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fcb34b49-e82c-4c74-b590-835d8ab8dd60": {
+      "ProjectGuid": "fcb34b49-e82c-4c74-b590-835d8ab8dd60",
+      "DisplayName": "NetCoreStockChart",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

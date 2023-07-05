@@ -10,7 +10,7 @@
         <div class="row form-group form-inline" style="margin-top:-5px">
             <label class="col-sm-5 control-label" for="startDate">Start Date:</label>
             <div class="col-sm-7 pb-4">
-                <input id="startDate" type="text" class="form-control" value="2023-01-01" />
+                <input id="startDate" type="text" class="form-control" value="2022-07-03" />
             </div>
         </div>
         <div class="row form-group form-inline" style="margin-top:-5px">
@@ -98,7 +98,7 @@
         })
           .done(function (success) {
             success.forEach(function (di) {
-              console.log(di);
+              // console.log(di);
               data.addRow([
                 { v: new Date(di.date), f: di.date },
                 di.open,
@@ -132,7 +132,7 @@
                   maxTextLines: 1,
                   maxAlternation: 1,
                 },
-                legend: { position: "none" },
+                legend : { position: "none" },
                 bar: { groupWidth: '100%' }, // Remove space between bars.
                 candlestick: {
                   fallingColor: { strokeWidth: 0, fill: "red" }, // Red
@@ -140,8 +140,8 @@
                 },
                 title: "Stock Price: " + ticker,
               },
-              view: { columns: [0, 4, 1, 4, 2] }, //configuration in the given code represents the columns used for displaying a candlestick chart.
-            });
+              view:{ columns:[0, 4, 1, 4, 2] } //configuration in the given code represents the columns used for displaying a candlestick chart.
+            });  
 
             // Column Chart
             var volume = new google.visualization.ChartWrapper({
